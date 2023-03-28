@@ -18,17 +18,15 @@
 #board {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
 }
 
 .new-div {
-color: gray; 
 border: 1px solid #2B2B2B;
+aspect-ratio: 1 / 1;
 }
 
-.modified-div {
-color: red;  
+.new-div:hover {
+    background-color: #d3d3d3;
 }
 
 @media only screen and (min-width: 961px) {
